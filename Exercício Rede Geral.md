@@ -11,6 +11,9 @@ x.x.x.x/18
 
 2) Considerando a máscara de subrede 255.255.248.0, calcule corretamente a quantidadede sub-redes e hosts possíveis com a máscara apresentada acima.
 
+|255|255|248|0|
+|-|-|-|-|
+|11111111|11111111|11111000|00000000|
 
 >8*256=2048 IPS 
 >Menos IP de Rede e Broadcast = 2046
