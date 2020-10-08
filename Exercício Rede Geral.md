@@ -56,3 +56,14 @@ Quantas novas estações podem ser conectadas a S?
 
 /24 256 ips
 /29 8 IPS - 6 hosts - 32 Subredes
+
+9) O administrador de uma rede local de computadores (LAN) de uma empresa utiliza o recurso de sub-redes para organizar a comunicação na LAN. De acordo com a quantidade de setores da empresa, o administrador estabeleceu o uso da máscara de sub-rede 255.255.255.224 para ocupar toda a faixa de IPs na LAN Classe C. Calcule a quantidade máxima de sub-rede para essa LAN.
+
+/27 - 8 Subredes 
+
+
+10) Calcula a nova máscara de Sub-rede do IP 192.168.1.33/16.
+
+|11111111|11111111|00000000|00000000|
+|-|-|-|-|
+|255|255|0|0|
