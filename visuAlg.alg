@@ -39,3 +39,21 @@ escolha prob
 fimescolha
 
 fimalgoritmo
+
+//##############################
+
+algoritmo "lista inversa"
+var
+nome: vetor [1..5] de caractere
+contador: inteiro
+inicio
+para contador de 1 ate 5 passo 1 faca
+     escreval ("insira o", contador ,".o nome: ")
+     leia(nome[contador])
+fimpara
+escreval("Os nome digitados foram:")
+
+para contador de 5 ate 1 passo -1 faca
+     escreval (nome[contador])
+fimpara
+fimalgoritmo
