@@ -5,6 +5,9 @@ Repositório focado para exercícios, anotações e manuais.~~em construção~~
 - [Programação](#programação)
   1. [VisuAlg](#visualg)
   2. [C](#c)
+  
+-------------
+
 <a name="redes"></a>
 ## 1. Redes:
 ### 1.1 Compreensão de Máscara de Sub redes
