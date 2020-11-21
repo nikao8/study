@@ -146,6 +146,25 @@ fimalgoritmo
 //#########################
 3-       Construa um agoritmo que TRANSFORME número DECIMAL EM BINÁRIO.
 
+algoritmo "dec to bin"
+var
+num, dec: inteiro
+bin: caractere
+inicio
+escreval("Insira o número: ")
+leia(num)
+bin <-""
+dec<-num
+enquanto num>0 faca
+  se (num mod 2) = 0 entao
+  bin <- "0" + bin
+  senao
+  bin <- "1" + bin
+  fimse
+  num<-num div 2
+fimenquanto
+escreval(dec, "=", bin)
+fimalgoritmo
 
 //#########################
 4-	Faça um algoritmo que calcule a média de idade dos seus familiares. 
@@ -153,4 +172,81 @@ Escolha 10 pessoas entre seus primos, tios, pais e irmãos e insira suas idades 
 Depois, mostre na tela qual é a média da idade de vocês. Para ficar mais interessante, classifique o 
 status desse grupo da seguinte maneira: CRIANÇA (entre 0 e 12 anos); ADOLESCENTE (entre 12 e 18 anos);
 JOVEM (entre 18 e 39 anos); EXPERIENTE (entre 39 e 59 anos); e IDOSO (acima de 59 anos)...
+
+algoritmo "censo"
+var
+
+familia: vetor [0..3] de inteiro
+n,i: inteiro
+
+inicio
+// registra membros
+para i de 0 ate 3 faca
+escreval("Quais as idades dos membros? ")
+leia (familia[i])
+fimpara
+
+para i de 0 ate 3 faca
+n<- familia[i]+n
+fimpara
+escreval("A média de idade é de: ",(n/4))
+
+
+                se ((n/4)>0) e ((n/4)<13) entao
+                    escreval("Criança")
+                fimse
+                se ((n/4)>12) e ((n/4)<18) entao
+                    escreval("Adolescente")
+                fimse
+                se ((n/4)>17) e ((n/4)<40) entao
+                    escreval("Jovem")
+                fimse
+                se ((n/4)>39) e ((n/4)<60) entao
+                     escreval("Experiente")
+                fimse
+                se ((n/4)>59) entao
+                     escreval("Idoso")
+                fimse
+fimalgoritmo
+
+
+//##########################
+
+5- Crie um programa que armazene 10 números digitados pelo usuário em dois vetores: um
+somente para números pares, e outro somente para números ímpares.
+Após, exiba os valores dos dois vetores na tela, em sequência.
+Obs.: As posições que não receberem valores exibirão o número zero. Não se preocupe com
+isso por enquanto.
+
+algoritmo "par impar"
+var
+n:inteiro
+impar,par: vetor [0..9] de inteiro
+i: inteiro
+inicio
+para i de 0 ate 9 faca
+     escreval("Digite um número")
+     leia(n)
+            se n mod 2 = 0 entao
+             par[i]<-n
+//             escreval("o num",n,"é par")
+            senao
+             impar[i]<-n
+//             escreval("o num",n,"é impar")
+            fimse
+fimpara
+para i de 0 ate 9 faca
+       se (par[i] mod 2) <> (impar[i] mod 2) entao
+        escreval("numeros impares: ", impar[i])
+       fimse
+       se (par[i] mod 2) = (impar[i] mod 2) entao
+        escreval("numeros pares: ", par[i])
+       fimse
+
+fimpara
+fimalgoritmo
+
+//#########################
+6- Modifique o programa anterior para não aceitar a entrada do número zero, e requisitar a
+digitação de outro número neste caso.
 
