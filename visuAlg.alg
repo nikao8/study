@@ -10,7 +10,7 @@ fimenquanto
  
 fimalgoritmo
 
-//##############################
+//#################################################################################################################################################################
 
 algoritmo "calculadora" 
 var
@@ -40,7 +40,7 @@ fimescolha
 
 fimalgoritmo
 
-//##############################
+//###################################################################################################################################################################
 
 algoritmo "lista inversa"
 var
@@ -58,7 +58,7 @@ para contador de 5 ate 1 passo -1 faca
 fimpara
 fimalgoritmo
 
-//####################################
+//#########################################################################################################################################################################
 
 1-	Construa um algoritmo que permita fazer um levantamento do estoque de vinhos de uma adega,
 tendo como dados de entrada tipos de vinho, sendo:'T' para tinto,'B' para branco e 'R' para rose.
@@ -87,7 +87,7 @@ escreval(" Vinhos Suaves correspondem a: ", (100*b)/(b+t+s), "%")
 
 fimalgoritmo
 
-//####################
+//##############################################################
 //opção 2 de resolução
 algoritmo "vinicula"
 var
@@ -114,7 +114,7 @@ inicio
 
 fimalgoritmo
 
-//###################
+//########################################################################################################################################################
 2-	Construa um algoritmo PARA CENSO
 Função : Em um censo estão sendo entrevistadas 1000 famílias.
 Cada família informará o número de pessoas que compõem a família. Elabore solução que 
@@ -143,7 +143,7 @@ fimse
 fimpara
 fimalgoritmo
 
-//#########################
+//##############################################################################################################################################################
 3-       Construa um agoritmo que TRANSFORME número DECIMAL EM BINÁRIO.
 
 algoritmo "dec to bin"
@@ -166,7 +166,7 @@ fimenquanto
 escreval(dec, "=", bin)
 fimalgoritmo
 
-//#########################
+//##############################################################################################################################################################
 4-	Faça um algoritmo que calcule a média de idade dos seus familiares. 
 Escolha 10 pessoas entre seus primos, tios, pais e irmãos e insira suas idades em um vetor “idade”.
 Depois, mostre na tela qual é a média da idade de vocês. Para ficar mais interessante, classifique o 
@@ -210,7 +210,7 @@ escreval("A média de idade é de: ",(n/4))
 fimalgoritmo
 
 
-//##########################
+//###############################################################################################################################################################
 
 5- Crie um programa que armazene 10 números digitados pelo usuário em dois vetores: um
 somente para números pares, e outro somente para números ímpares.
@@ -246,7 +246,7 @@ para i de 0 ate 9 faca
 fimpara
 fimalgoritmo
 
-//#########################
+//##############################################################################################################################################################
 6- Modifique o programa anterior para não aceitar a entrada do número zero, e requisitar a
 digitação de outro número neste caso.
 
