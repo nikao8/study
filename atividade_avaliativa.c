@@ -1,4 +1,13 @@
 #include<stdio.h>
+// ola mundo 
+int main() {
+    printf("Ola mundo \n");
+    return 0;
+    
+   
+}
+
+
 
 // corretor de nota média
 
@@ -9,7 +18,7 @@ int main() {
     scanf("%d %d %d", &n1, &n2, &n3);
     
     
-
+}
 
 
 
