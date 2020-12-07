@@ -5,7 +5,7 @@ Repositório focado para exercícios, anotações e manuais.~~em construção~~
 - [Programação](#programação)
   1. [VisuAlg](#visualg)
   2. [C](#c)
-  
+  3. [Python](#python)
 -------------
 
 <a name="redes"></a>
@@ -32,10 +32,14 @@ Lista de exercícios do Senac sobre Windows Server e outra de TCP/IP do Vianna, 
 <a name="programação"></a>
 ## 2. Programação
 <a name="visualg"></a>
-### 2.1 Algoritmos Simples em VisuAlg
+### 2.1 VisuAlg
 Lista simples de exercícios feito em aula.
  - [1](https://github.com/3rdglaz/study/blob/main/visuAlg.alg)
 <a name="c"></a>
-### 2.2 Exercícios de Lógica feitos em C
+### 2.2 C
 Ainda em desenvolvimento, tanto em critério de exercícios escolhidos, quanto em domínio da linguagem em si.
  - [1](https://github.com/3rdglaz/study/blob/main/atividade_avaliativa.c)
+<a name="python"></a>
+### 2.3 Python
+Resumo simples do funcionamento de python
+ - [1](https://github.com/3rdglaz/study/blob/main/trabalho%20python.md)
