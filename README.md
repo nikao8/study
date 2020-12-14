@@ -41,6 +41,7 @@ Ainda em desenvolvimento, tanto em critério de exercícios escolhidos, quanto e
  - [Atividades Avaliativas](https://github.com/3rdglaz/study/blob/main/atividade_avaliativa.c)
 
 Pequena coletânea de exercícios já feitos
+
 [Diretório Geral de C](https://github.com/3rdglaz/study/tree/main/C)
 <a name="python"></a>
 ### 2.3 Python
