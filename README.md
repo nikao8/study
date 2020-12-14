@@ -38,7 +38,10 @@ Lista simples de exercícios feito em aula.
 <a name="c"></a>
 ### 2.2 C
 Ainda em desenvolvimento, tanto em critério de exercícios escolhidos, quanto em domínio da linguagem em si.
- - [1](https://github.com/3rdglaz/study/blob/main/atividade_avaliativa.c)
+ - [Atividades Avaliativas](https://github.com/3rdglaz/study/blob/main/atividade_avaliativa.c)
+
+Pequena coletânea de exercícios já feitos
+[Diretório Geral de C](https://github.com/3rdglaz/study/tree/main/C)
 <a name="python"></a>
 ### 2.3 Python
 Resumo simples do funcionamento de python
