@@ -28,6 +28,11 @@ Planilha de sub redes com endereços em CIDR:
 Lista de exercícios do Senac sobre Windows Server e outra de TCP/IP do Vianna, respectivamente:
   - [1](https://github.com/3rdglaz/study/blob/main/Exercicios%20Windows%20Server.md)
   - [2](https://github.com/3rdglaz/study/blob/main/Exerc%C3%ADcio%20Rede%20Geral.md)
+
+### 1.3 Resumo de Livros
+
+ - [Redes de Computadores e Internet](https://github.com/3rdglaz/study/blob/main/kurose.md)
+
 ------------
 <a name="programação"></a>
 ## 2. Programação
