@@ -45,3 +45,10 @@ terminal de rede ótica (ONT)
 
 terminal de linha ótica (OLT)
 
+ Optical Carrier (OC) variam de 51,8 Mbits/s a 39,8 Gbits/
+  - denominadas OC-n, em que a velocidade de conexão se
+iguala a n × 51,8 Mbits/s. Os padrões usados hoje incluem OC-1, OC-3, OC-12, OC-24, OC-48, OC-96, OC-192
+e OC-768
+
+
+ 
