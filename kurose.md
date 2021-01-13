@@ -50,5 +50,7 @@ terminal de linha ótica (OLT)
 iguala a n × 51,8 Mbits/s. Os padrões usados hoje incluem OC-1, OC-3, OC-12, OC-24, OC-48, OC-96, OC-192
 e OC-768
 
-
+ Um Circuito implementado por:
+ - multiplexação por divisão de frequência (frequency-division multiplexing — FDM)
+ - multiplexação por divisão de tempo (time-division multiplexing — TDM)
  
