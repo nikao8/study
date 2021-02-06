@@ -14,7 +14,7 @@ Repositório focado para exercícios, anotações e manuais.~~em construção~~
 Planilha de sub redes com endereços em CIDR:
 
 | Mask | A | B | C | D | IPs|
-| ---- | - | - | - | - | - |
+| :-: | :-: | :-: | :-: | :-: | :-: |
 | /24 | 255|255|255|0|256 |
 | /25 | 255|255|255|128|128|
 | /26 | 255|255|255|192|64|
@@ -47,7 +47,7 @@ Ainda em desenvolvimento, tanto em critério de exercícios escolhidos, quanto e
 
 Pequena coletânea de exercícios já feitos
 
-[Diretório Geral de C](https://github.com/3rdglaz/study/tree/main/C)
+ - [Diretório Geral de C](https://github.com/3rdglaz/study/tree/main/C)
 <a name="python"></a>
 ### 2.3 Python
 Resumo simples do funcionamento de python
