@@ -293,21 +293,22 @@ faz 12 km com um litro de gasolina, um tipo B faz 9 km e o tipo C, 8 km por litr
 int main()
 {
     float dist;
-    int carro;
+    char carro;
     printf("Qual a distancia?\n ");
     scanf("%f", &dist);
-    printf("Tipo de Carro:\n 1 - A\n 2 - B\n 3 - C\n");
-    scanf("%i", &carro);
+    printf("Tipo de Carro:\n A\n B\n C\n");
+    carro = toupper(getch());
+    getchar();
     switch (carro)
     {
-    case 1:
+    case 'A':
         printf("Consumo estimado:  %.2f Litros", (dist / 12));
         break;
-    case 2:
-        printf("Consumo estimado:  %.2f", (dist / 9));
+    case 'B':
+        printf("Consumo estimado:  %.2f Litros", (dist / 9));
         break;
-    case 3:
-        printf("Consumo estimado:  %.2f", (dist / 8));
+    case 'C':
+        printf("Consumo estimado:  %.2f Litros", (dist / 8));
         break;
     default:
         break;
