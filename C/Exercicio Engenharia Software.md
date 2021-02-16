@@ -60,14 +60,28 @@ sistema já existente.
 
 Um sistema interativo de planejamento de viagens que ajude os usuários
 a planejar viagens com menor impacto ambiental.
-> Modelo
+> Modelo Espiral
 
 
-10.Sugira por que e importante, no processo de engenharia de requisitos,
+9. Sugira por que e importante, no processo de engenharia de requisitos,
 fazer uma distinção entre desenvolvimento dos requisitos do usuário e
 desenvolvimento de requisitos de sistema.
 
+> Além da demanda do usuário basicamente estabelecer quais serão os requisistos do sistema, é necessário avaliar o uso mais enxuto possível de requisitos do sistema além da compatibilidade.
 
+10. Qual a principal desvantagem do modelo em cascata de processo de
+software?.
 
-11. O que é um protótipo? Que cuidados são importantes e próprios desse
+> É necessário refazer o processo a todo momento em que se exige uma manutenção.
+
+11. Explique por que, em sistemas complexos, as mudanças são inevitaveis.
+Exemplifique as atividades de processo de software que ajudam a prever
+as mudancas e fazer com que o software seja desenvolvido mais tolerante
+a mudancas (desconsidere prototipacao e entrega incrementai).
+
+> Acompanha a complexidade, erros e novas tribulações, otimizações, adição e exclusão de serviços. Usando como exemplo o modelo Espiral, as necessidade estão em constante desenvolvimento previsto no próprio modelo, onde não se congela toda a funcionalidade de um sistema, apenas são adultaredas quando necessário. No processo de Objetivos e Amarras, onde se avalia qualquer tipo de gargalo, é logo levado para o passo de alternativas, onde se identifica e avalia os riscos, em seguida, se desenvolve e verifica o protótipo. 
+
+12. O que é um protótipo? Que cuidados são importantes e próprios desse
 modelo no que diz respeito a comunicação com os clientes?
+
+> Protótipo é um primeiro modelo. É importante na apresentação de um, estabelecer o que se planeja fazer, concomitante a mostrar possíveis falhas e acertos futuros. Tudo numa linguagem acessível ao cliente.
