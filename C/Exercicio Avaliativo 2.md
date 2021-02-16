@@ -6,9 +6,9 @@ sejam positivos e que o multiplicando seja menor do que o multiplicador.
 int main()
 {
     int m1, m2;
-    printf("Digite algum numero:\n");
+    printf("Digite multiplicando:\n");
     scanf("%i", &m1);
-    printf("Digite mais um numero:\n");
+    printf("Digite multiplicador:\n");
     scanf("%i", &m2);
 
     if (m1 > 0 && m2 > 0 && m2 < m1)
