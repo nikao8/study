@@ -79,8 +79,64 @@ Faça um programa que imprima:
 • o número de pessoas moradoras do Rio de Janeiro, torcedores de outros clubes;
 • o número de pessoas de Niterói torcedoras do Fluminense
 Obs.: O programa encerra quando se digita 0 para o time.
-Lista de exercícios de Algoritimos
-Data de entrega 05/03
+```c
+int main()
+{
+    int time = 0, end = 0, fla = 0, flu = 0, vas = 0, bot = 0, out = 0;
+    int torcOutros = 0, torcFlu = 0;
+    float salario = 0, soma = 0;
+    do
+    {
+        printf("Qual seu salario: ");
+        scanf("%f", &salario);
+        printf("\n Qual seu time: \n 1- Fluminense\n 2- Botafogo\n 3- Vasco\n 4- Flamengo \n 5- Outros\n 0 - SAIR\n");
+        scanf("%i", &time);
+        if (time == 0)
+        {
+            break;
+        }
+        else if (time == 1)
+        {
+            flu++;
+        }
+        else if (time == 2)
+        {
+            bot++;
+            soma += salario;
+        }
+        else if (time == 3)
+        {
+            vas++;
+        }
+        else if (time == 4)
+        {
+            fla++;
+        }
+        else if (time == 5)
+        {
+            out++;
+        }
+        printf("\n Onde vc reside: \n 1- Rio\n 2- Niteroi\n 3- Outro\n");
+        scanf("%i", end);
+        if (end == 1 && time == 4)
+        {
+            torcOutros++;
+        }
+        else if (end == 2 && time == 1)
+        {
+            torcFlu++;
+        }
+    } while (time != 0);
+    printf("\n Fluminense tem %i ", flu);
+    printf("\n Vasco tem %i ", vas);
+    printf("\n Botafogo tem %i ", bot);
+    printf("\n Flamengo tem %i ", fla);
+    printf("\n outros tem %i ", out);
+    printf("\n Media de salario dos torcedores do botafogo: %f", soma / bot);
+    printf("\n Torcedores de outro time no rio: %i", torcOutros);
+    printf("\n Torcedores do Fluminense em Niteroi: %i", torcFlu);
+}
+```
 
 4. Uma empresa de fornecimento de energia elétrica faz a leitura mensal dos medidores de consumo.
 Para cada consumidor, são digitados os seguintes dados:
