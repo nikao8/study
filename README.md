@@ -48,7 +48,7 @@ Ainda em desenvolvimento, tanto em critério de exercícios escolhidos, quanto e
 Pequena coletânea de exercícios já feitos
 
  - [Diretório Geral de C](https://github.com/3rdglaz/study/tree/main/C)
- - [Lista 1](https://github.com/3rdglaz/study/blob/main/C/Exercicio0802021.md)
+ - [Lista 1](https://github.com/3rdglaz/study/blob/main/C/Exercicio%20Engenharia%20Software.md)
  - [Lista 2](https://github.com/3rdglaz/study/blob/main/C/lista_ILY.md)
 <a name="python"></a>
 ### 2.3 Python
