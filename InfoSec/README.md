@@ -2,7 +2,7 @@
 
 Catálogo de anotação, criação de manuais, apendice de artigos e controle de exercícios.
 
- - LGDP
+ - [LGDP](https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm)
  - cybermap.kaspersky.com
 
 ### Módulos
