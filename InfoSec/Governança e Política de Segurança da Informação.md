@@ -12,12 +12,14 @@ __ISO 27002 + NIST 800-53 + COBIT + ITIL:__ Configuram referênciais com detalhe
 É de importância a prática de definição de prioridade, avalia-se:
   
   1. Ameaça 
-  > 
+  > Fator ataque. 
   2. Vulnerabilidade
-  > 
+  > Ponto fraco técnico.
   4. Probabilidade
-  > 
+  > Entende-se como a possibilidade de acontecer.
   5. Impacto
-  > 
+  > O quanto afeta.
   6. Risco
-  > 
+  > Probabilidade x Impacto.
+  
+![Politicas](img/politica cn.png)
